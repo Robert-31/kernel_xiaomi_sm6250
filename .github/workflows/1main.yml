@@ -22,7 +22,7 @@ jobs:
       with:
         arch: arm64
         compiler: gcc/12
-        defconfig: miatoll_defconfig
+        defconfig: vendor/xiaomi/miatoll_defconfig
         image: Image.gz-dtb
 
     - name: kernelandmodule
